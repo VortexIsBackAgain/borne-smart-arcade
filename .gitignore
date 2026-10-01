@@ -1,0 +1,22 @@
+# Exclure le disque dur externe et les médias volumineux
+/media/
+*.jpg
+*.png
+*.mp3
+*.mp4
+
+# Exclure les caches et logs Python
+__pycache__/
+*.pyc
+*.log
+
+# Exclure la téléométrie, caches VS Code et environnements
+.cache/
+.vscode-server/
+.vscode/
+.copilot/
+.dotnet/
+.wget-hsts
+.bash_history
+.lesshst
+.python_history
