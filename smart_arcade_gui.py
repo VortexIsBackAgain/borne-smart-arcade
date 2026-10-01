@@ -44,7 +44,7 @@ font_sub = pygame.font.Font(FONT_PATH, int(HEIGHT * 0.022))
 font_storage = pygame.font.Font(FONT_PATH, int(HEIGHT * 0.019))
 
 ACTIVITIES = [
-    {"title": "RETROGAMING", "sub": "EmulationStation", "img_path": "/media/hdd/media/arcade.jpg", "cmd": "sudo systemctl isolate arcade-retro.target"},
+    {"title": "RETROGAMING", "sub": "EmulationStation", "img_path": "/media/hdd/media/arcade.jpg", "cmd": "emulationstation"},
     {"title": "KARAOKE", "sub": "UltraStar Deluxe", "img_path": "/media/hdd/media/karaoke.jpg", "cmd": "sudo systemctl isolate arcade-karaoke.target"},
     {"title": "DARTSCAB", "sub": "Cible Fléchettes", "img_path": "/media/hdd/media/darts.jpg", "cmd": "sudo systemctl isolate arcade-darts.target"},
     {"title": "QUIZ SHOW", "sub": "Serveur Smartphone", "img_path": "/media/hdd/media/quiz.jpg", "cmd": "python3 /media/hdd/quiz/server.py &"}
